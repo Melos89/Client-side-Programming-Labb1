@@ -1,13 +1,18 @@
 ﻿var number = prompt("supply a number:");
 
-var result = EvenDivision(number);
 
-
-if (result == true)
-    document.getElementById('result').innerHTML = number + " är jämnt delbart med 3";
+if (isNaN(number) || number.trim() == "") {
+    alert("Wrong input, didn´t supply a number");
+}
 else
-    document.getElementById('result').innerHTML = number + " är inte jämnt delbart med 3";
+{
+    var result = EvenDivision(number);
 
+    if (result == true)
+        document.getElementById('result').innerHTML = number + " är jämnt delbart med 3";
+    else
+        document.getElementById('result').innerHTML = number + " är inte jämnt delbart med 3";
+}
 
 
 
