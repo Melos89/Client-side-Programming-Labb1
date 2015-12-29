@@ -4,7 +4,7 @@ var secondNumber = prompt("Second number");
 
 var thirdNumber = prompt("third number");
 
-sumUp(firstnumber, secondNumber, thirdNumber);
+sumUp(parseInt(firstnumber), parseInt(secondNumber), parseInt(thirdNumber));
 
 
 
@@ -12,5 +12,6 @@ sumUp(firstnumber, secondNumber, thirdNumber);
 
 function sumUp(a, b, c)
 {
-    document.getElementById('result').innerHTML = "Totala summan: " + (a + b + c);
+    var result = a + b + c;
+    document.getElementById('result').innerHTML = "Totala summan: " + result;
 }
