@@ -2,7 +2,7 @@
 
 
 
-
+document.getElementById('text').innerHTML = "Talet i kvadrat är: " + calculate(number);
 
 
 
