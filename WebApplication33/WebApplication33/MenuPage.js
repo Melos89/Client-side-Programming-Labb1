@@ -23,3 +23,6 @@ for (var i = 0; i < imageholder.length; i++) {
 Make price background red. 
 Reduce price by another 20%:*/
 
+var weekdays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+var weekday = document.getElementsByClassName('price');
+
