@@ -10,12 +10,14 @@ function happyHour() {
         }
     }
 }
-//Method calls:
+setInterval(happyHour,1000);
 
-
-//Adjust price function: (add .toFixed(2) for 2 decimals)
 
 /*Add pictures function to span:*/
+var imageholder = document.getElementsByTagName('span');
+for (var i = 0; i < imageholder.length; i++) {
+    imageholder[i].innerHTML = '<img src="Images/Hamburger.png"/>';
+}
 
 /*Add todays offer function. 
 Make price background red. 
