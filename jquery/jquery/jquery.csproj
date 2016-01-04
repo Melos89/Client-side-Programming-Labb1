@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{44E8D5E9-86D2-409A-A48B-A4E8760D97E2}</ProjectGuid>
+    <ProjectGuid>{413F5731-D062-4299-8A35-46DC57ABFED6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Labb1</RootNamespace>
-    <AssemblyName>Labb1</AssemblyName>
+    <RootNamespace>jquery</RootNamespace>
+    <AssemblyName>jquery</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -66,7 +66,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Indexpunkt5.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,15 +75,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Indexpunkt1.html" />
-    <Content Include="Indexpunkt2.html" />
-    <Content Include="Indexpunkt3.html" />
-    <Content Include="Indexpunkt4.html" />
-    <Content Include="Scripts\Indexpunkt1.js" />
-    <Content Include="Scripts\Indexpunkt2.js" />
-    <Content Include="Scripts\Indexpunkt3.js" />
-    <Content Include="Scripts\Indexpunkt4.js" />
-    <Content Include="Scripts\Indexpunkt5.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,9 +93,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51813</DevelopmentServerPort>
+          <DevelopmentServerPort>4223</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51813/</IISUrl>
+          <IISUrl>http://localhost:4223/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
