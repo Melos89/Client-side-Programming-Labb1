@@ -58,8 +58,13 @@ boxOne.addEventListener('click',PlayingWithProperties,false);
 
 
 function PlayingWithProperties() {
+
+    var pointerx = window.screenX;
+    var pointery = window.screenY;
+
     alert('innerheight of window: ' + window.innerHeight + 'and innerwidth: ' + window.innerWidth);
     alert('pagexOffset:' + window.pageXOffset + 'pageYoffset:' + window.pageYOffset);
-
+    alert('Pointer is here!  X:' + pointerx + ' Y: ' + pointery);
+    alert('The filepath of this page is: ' + window.location);
 
 }
