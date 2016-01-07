@@ -59,6 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="JSON\drink.json" />
+    <Content Include="JSON\hamburger.json" />
+    <Content Include="JSON\pizza.json" />
+    <Content Include="JSON\Subs.json" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <None Include="Scripts\jquery-2.1.0-vsdoc.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />

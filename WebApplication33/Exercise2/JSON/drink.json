@@ -1,0 +1,46 @@
+﻿{
+"drinkList": [
+    {
+      "name": "Cola",
+      "size": "small",
+      "dayOfTheWeek": "monday",
+      "price": "10.50"
+    },
+    {
+      "name": "Fanta",
+      "size": "medium",
+      "dayOfTheWeek": "tuesday",
+      "price": "12.50"
+    },
+    {
+      "name": "Sprite",
+      "size": "large",
+      "dayOfTheWeek": "wednesday",
+      "price": "20.50"
+    },
+    {
+      "name": "7Up",
+      "size": "small",
+      "dayOfTheWeek": "thursday",
+      "price": "20.50"
+    },
+    {
+      "name": "Trocadero",
+      "size": "large",
+      "dayOfTheWeek": "friday",
+      "price": "12.50"
+    },
+    {
+      "name": "Pomac",
+      "size": "medium",
+      "dayOfTheWeek": "saturday",
+      "price": "18.50"
+    },
+    {
+      "name": "CherryLime",
+      "size": "large",
+      "dayOfTheWeek": "sunday",
+      "price": "20.50"
+    }
+  ]
+}
