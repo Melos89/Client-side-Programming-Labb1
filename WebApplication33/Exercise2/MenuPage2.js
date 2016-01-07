@@ -69,3 +69,30 @@ function addPizzasToPage() {
     }
     request.send();
 }
+//Drinks
+function addDrinksToPage() {
+    var request;
+    if (window.XMLHttpRequest) {
+        request = new XMLHttpRequest();
+    } else {
+        request = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    request.open("GET", "JSON/drinks.json", true);
+    request.onreadystatechange = function () {
+        if (request.readyState === 4 && request.status === 200) {
+            var drinks = JSON.parse(request.responseText);
+            var output = "<h2>" + "Delicious drinks";
+            for (var i = 0; i < drinks.drinkList.length; i++) {
+                output += "<article>" + "<fieldset>"
+                    + "<legend>" + drinks.drinkList[i].dayOfTheWeek + " drink" + "</legend>"
+                    + "<h3>" + drinks.drinkList[i].name + "</h3>"
+                    + "<span>" + "<img src='Images/Drink.png'/>" + "</span>"
+                    + "<div class='price'" + " id='" + drinks.drinkList[i].dayOfTheWeek + "'>" + drinks.drinkList[i].price + "</div>"
+                    + "</fieldset>" + "</article>";
+            }
+            output += "</h2>";
+            document.getElementById("drinksPlace").innerHTML = output;
+        }
+    }
+    request.send();
+}
