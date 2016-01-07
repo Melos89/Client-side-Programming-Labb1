@@ -138,38 +138,18 @@ function replacingWithPi()
 
 //12. Calculate how many days it's until your birthday and present it.
 
-var today = new Date();
-//var myYear = 1989;
-var myBirthday = new Date(1989, 03, 22);
-//var myBirthday = new Date(myYear, 03, 22);
-//var myBirthdayNextYear = new Date((myYear + 1), 03, 22);
-//var diff = myBirthday.getTime() - today.getTime();
-
-//if (diff < 0) {
-//    diff = myBirthdayNextYear.getTime() - today.getTime();
-//}
-
-
-    var nextBirthday = myYear.AddYears(DateTime.Today.Year - myYear.Year);
-    if (nextBirthday < DateTime.Today) {
-        nextBirthday = nextBirthday.AddYears(1);
-        var daysToGo = (nextBirthday - DateTime.Today).Days;
+    calculateNumberOfDaysToBirthday();
+    calculateAgeInMinutes();
+    function calculateNumberOfDaysToBirthday() {
+        var todaysDate = new Date();
+        var birthday = new Date(todaysDate.getFullYear(), 03, 22);
+        var mybirthday = Math.round((birthday - todaysDate) / 1000 / 60 / 60 / 24);
+        document.getElementById("birthdayPresentation").innerHTML = "Days until my birthday: " + mybirthday + "</br>";
     }
-
-    var minutesToBirthday = Math.floor(diff / 1000 / 60);
-    var daysToBirthday = Math.floor(minutesToBirthday / 24 / 60);
-
-    var birthdayDiv = document.getElementById('birthdayPresentation');
-    var birthdayParagraf = document.createElement('p');
-    birthdayParagraf.textContent = "det är min födelsedag om :" + daysToGo + "dagar";
-    birthdayDiv.appendChild(birthdayParagraf);
-    //13. Calculate how many minutes old you are and present it.
-
-    var diff = today.getTime() - myBirthday.getTime();
-
-    var totalMinutes = Math.floor(diff / 1000 / 60);
-
-    var minuteDiv = document.getElementById('minutePresentation');
-    var minuteParagraf = document.createElement('p');
-    minuteParagraf.textContent = "jag är :" + totalMinutes + "minuter gammal";
-    minuteDiv.appendChild(minuteParagraf);
+    function calculateAgeInMinutes() {
+        var todaysDate = new Date();
+        var birthday = new Date(todaysDate.getFullYear(), 03, 22);
+        var minutes = 1000 * 60;
+        var minutesOld = Math.round((birthday - todaysDate) / minutes);
+        document.getElementById("birthdayPresentation").innerHTML += "I am " + minutesOld + " minutes old.";
+    }
