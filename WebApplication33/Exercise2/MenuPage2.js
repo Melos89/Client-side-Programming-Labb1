@@ -42,3 +42,30 @@ function addHamburgersToPage() {
     }
     request.send();
 }
+//Pizzas
+function addPizzasToPage() {
+    var request;
+    if (window.XMLHttpRequest) {
+        request = new XMLHttpRequest();
+    } else {
+        request = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    request.open("GET", "JSON/pizza.json", true);
+    request.onreadystatechange = function () {
+        if (request.readyState === 4 && request.status === 200) {
+            var pizzas = JSON.parse(request.responseText);
+            var output = "<h2>" + "Delicious pizzas";
+            for (var i = 0; i < pizzas.pizzaList.length; i++) {
+                output += "<article>" + "<fieldset>"
+                    + "<legend>" + pizzas.pizzaList[i].dayOfTheWeek + " pizza" + "</legend>"
+                    + "<h3>" + pizzas.pizzaList[i].name + "</h3>"
+                    + "<span>" + "<img src='Images/Pizza.png'/>" + "</span>"
+                    + "<div class='price'" + " id='" + pizzas.pizzaList[i].dayOfTheWeek + "'>" + pizzas.pizzaList[i].price + "</div>"
+                    + "</fieldset>" + "</article>";
+            }
+            output += "</h2>";
+            document.getElementById("pizzaPlace").innerHTML = output;
+        }
+    }
+    request.send();
+}
