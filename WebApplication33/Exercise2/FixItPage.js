@@ -81,3 +81,12 @@ function StyleItUp() {
 }
 //end of 4.
 
+//6. Play with the DOM-properties
+
+document.title = "Hello New Title";
+alert("This page latest update: " + document.lastModified + "\n" +
+    "the URL to this page: " + document.URL + "\n" +
+    "the domain: " + document.domain);
+//end of 6.
+
+//7. Save the the text from the makeMeAnArray-paragraph into an array.
