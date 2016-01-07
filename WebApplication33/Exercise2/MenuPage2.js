@@ -96,3 +96,30 @@ function addDrinksToPage() {
     }
     request.send();
 }
+//Subs
+function addSubsToPage() {
+    var request;
+    if (window.XMLHttpRequest) {
+        request = new XMLHttpRequest();
+    } else {
+        request = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    request.open("GET", "JSON/subs.json", true);
+    request.onreadystatechange = function () {
+        if (request.readyState === 4 && request.status === 200) {
+            var subs = JSON.parse(request.responseText);
+            var output = "<h2>" + "Delicious subs";
+            for (var i = 0; i < subs.subList.length; i++) {
+                output += "<article>" + "<fieldset>"
+                    + "<legend>" + subs.subList[i].dayOfTheWeek + " sub" + "</legend>"
+                    + "<h3>" + subs.subList[i].name + "</h3>"
+                    + "<span>" + "<img src='Images/Subs.png'/>" + "</span>"
+                    + "<div class='price'" + " id='" + subs.subList[i].dayOfTheWeek + "'>" + subs.subList[i].price + "</div>"
+                    + "</fieldset>" + "</article>";
+            }
+            output += "</h2>";
+            document.getElementById("subsPlace").innerHTML = output;
+        }
+    }
+    request.send();
+}
