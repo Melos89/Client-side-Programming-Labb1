@@ -98,10 +98,22 @@ var array = textToSave.trim().split(" ");
 
 //8. Use all the string methods and propertys allong with the array
 
-var length = array.length;
-var upperCase = array.toUpperCase;
-var lowerCase = array.toLowerCase;
-var indexOf = array.indexOf("pp");
-var lastIndexOf = array.lastIndexOf("out");
-var charAt = array.charAt(20);
-var replace = array.replace("y","**");
+//var length = array.length;
+//var upperCase = array.toUpperCase;
+//var lowerCase = array.toLowerCase;
+//var indexOf = array.indexOf("pp");
+//var lastIndexOf = array.lastIndexOf("out");
+//var charAt = array.charAt(20);
+//var replace = array.replace("y","**");
+
+
+//end of 8.
+
+//9. check if the 4th element in the array is a number
+
+var arrayPosition = array[3];
+
+if (!arrayPosition.isNaN)
+    alert("It isnt a number");
+else
+    alert("It's a number");
