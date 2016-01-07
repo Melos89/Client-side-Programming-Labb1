@@ -56,7 +56,7 @@ element.textContent = "Knapp 1";
 
 
 
-var boxOne = document.getElementById('makeMeAnArray').appendChild(element);
+var boxOne = document.getElementById('box1').appendChild(element);
 
 boxOne.addEventListener('click',PlayingWithProperties,false);
 
@@ -94,6 +94,8 @@ var textToSave = document.getElementById('makeMeAnArray').innerHTML;
 
 var array = textToSave.trim().split(" ");
 
+var text = "";
+
 //end of 7.
 
 //8. Use all the string methods and propertys allong with the array
@@ -113,7 +115,7 @@ var array = textToSave.trim().split(" ");
 
 var arrayPosition = array[4];
 
-if (!arrayPosition.isNaN)
+if (arrayPosition.isNaN)
     alert("It isnt a number");
 else
     alert("It's a number");
@@ -130,6 +132,44 @@ alert("Postion 4 in array is: " + Math.ceil(arrayPosition));
 //11. replace the 3rd word with PI then roud it to the nearest integer
 function replacingWithPi()
 {
-    document.getElementById('makeMeAnArray').innerHTML = textToSave.replace(array[2],,Math.round(Math.PI));
+    document.getElementById('makeMeAnArray').innerHTML = textToSave.replace(array[2],Math.round(Math.PI));
 }
 //End of 11.
+
+//12. Calculate how many days it's until your birthday and present it.
+
+var today = new Date();
+//var myYear = 1989;
+var myBirthday = new Date(1989, 03, 22);
+//var myBirthday = new Date(myYear, 03, 22);
+//var myBirthdayNextYear = new Date((myYear + 1), 03, 22);
+//var diff = myBirthday.getTime() - today.getTime();
+
+//if (diff < 0) {
+//    diff = myBirthdayNextYear.getTime() - today.getTime();
+//}
+
+
+    var nextBirthday = myYear.AddYears(DateTime.Today.Year - myYear.Year);
+    if (nextBirthday < DateTime.Today) {
+        nextBirthday = nextBirthday.AddYears(1);
+        var daysToGo = (nextBirthday - DateTime.Today).Days;
+    }
+
+    var minutesToBirthday = Math.floor(diff / 1000 / 60);
+    var daysToBirthday = Math.floor(minutesToBirthday / 24 / 60);
+
+    var birthdayDiv = document.getElementById('birthdayPresentation');
+    var birthdayParagraf = document.createElement('p');
+    birthdayParagraf.textContent = "det är min födelsedag om :" + daysToGo + "dagar";
+    birthdayDiv.appendChild(birthdayParagraf);
+    //13. Calculate how many minutes old you are and present it.
+
+    var diff = today.getTime() - myBirthday.getTime();
+
+    var totalMinutes = Math.floor(diff / 1000 / 60);
+
+    var minuteDiv = document.getElementById('minutePresentation');
+    var minuteParagraf = document.createElement('p');
+    minuteParagraf.textContent = "jag är :" + totalMinutes + "minuter gammal";
+    minuteDiv.appendChild(minuteParagraf);
