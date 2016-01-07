@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,6 +76,7 @@
     <Content Include="MenuPage.css" />
     <Content Include="MenuPage2.js" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="Styling.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

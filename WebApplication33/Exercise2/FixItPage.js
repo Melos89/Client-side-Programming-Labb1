@@ -10,10 +10,9 @@ with an alert that shows the result when the box is clicked!
 2. Add som tags that doesn't change the visual part of the paragraph
 
 .
-3.Play with the properties at page 124 in the book. 
-  Use properties creatively to display things at the html page
-4.Add a stylesheet that displays the changed words in fat font and in red.
-5. PLay with the Methods 
+
+
+5. PLay with the Methods -- DONE.
 ### DOM page 126:###
 6. Play with the DOM-properties
 
@@ -41,6 +40,12 @@ Bonus exercises:
 
 */
 
+
+
+
+
+//3.Play with the properties at page 124 in the book. 
+  //Use properties creatively to display things at the html page
 var element = document.createElement('div');
 
 element.setAttribute('class', 'divboxOne');
@@ -58,7 +63,7 @@ boxOne.addEventListener('click',PlayingWithProperties,false);
 
 
 function PlayingWithProperties() {
-
+    StyleItUp();
     var pointerx = window.screenX;
     var pointery = window.screenY;
 
@@ -68,3 +73,11 @@ function PlayingWithProperties() {
     alert('The filepath of this page is: ' + window.location);
 
 }
+//End of 3.
+
+//4.Add a stylesheet that displays the changed words in fat font and in red.
+function StyleItUp() {
+    $('head').append('<link href="Styling.css" rel="stylesheet" />');
+}
+//end of 4.
+
