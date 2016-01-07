@@ -90,3 +90,6 @@ alert("This page latest update: " + document.lastModified + "\n" +
 //end of 6.
 
 //7. Save the the text from the makeMeAnArray-paragraph into an array.
+var textToSave = document.getElementById('makeMeAnArray').innerHTML;
+
+var array = textToSave.trim().split(" ");
