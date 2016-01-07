@@ -14,7 +14,7 @@
                 }
             });
             output += "</ul>";
-            $("#update").html(output);
+            $("#Information").html(output);
         });
     });
 })
