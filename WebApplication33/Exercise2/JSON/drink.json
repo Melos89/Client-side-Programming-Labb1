@@ -4,43 +4,50 @@
       "name": "Cola",
       "size": "small",
       "dayOfTheWeek": "monday",
-      "price": "10.50"
+      "price": "10.50",
+       "url": "Drink.png"
     },
     {
       "name": "Fanta",
       "size": "medium",
       "dayOfTheWeek": "tuesday",
-      "price": "12.50"
+      "price": "12.50",
+       "url": "Drink.png"
     },
     {
       "name": "Sprite",
       "size": "large",
       "dayOfTheWeek": "wednesday",
-      "price": "20.50"
+      "price": "20.50",
+       "url": "Drink.png"
     },
     {
       "name": "7Up",
       "size": "small",
       "dayOfTheWeek": "thursday",
-      "price": "20.50"
+      "price": "20.50",
+       "url": "Drink.png"
     },
     {
       "name": "Trocadero",
       "size": "large",
       "dayOfTheWeek": "friday",
-      "price": "12.50"
+      "price": "12.50",
+       "url": "Drink.png"
     },
     {
       "name": "Pomac",
       "size": "medium",
       "dayOfTheWeek": "saturday",
-      "price": "18.50"
+      "price": "18.50",
+       "url": "Drink.png"
     },
     {
       "name": "CherryLime",
       "size": "large",
       "dayOfTheWeek": "sunday",
-      "price": "20.50"
+      "price": "20.50",
+       "url": "Drink.png"
     }
   ]
 }
