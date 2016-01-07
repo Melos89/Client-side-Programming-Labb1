@@ -1,3 +1,53 @@
 ﻿{
-
+    "subList": [
+    {
+      "name": "neutrality sub",
+      "size": "200g",
+      "dayOfTheWeek": "monday",
+      "price": "15.50",
+       "url": "Subs.png"
+    },
+    {
+      "name": "happy wonders sub",
+      "size": "150g",
+      "dayOfTheWeek": "tuesday",
+      "price": "14.50",
+       "url": "Subs.png"
+    },
+    {
+      "name": "double cheese sub",
+      "size": "90g",
+      "dayOfTheWeek": "wednesday",
+      "price": "10.50",
+       "url": "Subs.png"
+    },
+    {
+      "name": "veggie sub",
+      "size": "220g",
+      "dayOfTheWeek": "thursday",
+      "price": "25.50",
+       "url": "Subs.png"
+    },
+    {
+      "name": "salmon sub",
+      "size": "180g",
+      "dayOfTheWeek": "friday",
+      "price": "20.50",
+       "url": "Subs.png"
+    },
+    {
+      "name": "feathered sub",
+      "size": "210g",
+      "dayOfTheWeek": "saturday",
+      "price": "15.50",
+       "url": "Subs.png"
+    },
+    {
+      "name": "royal grandeur sub",
+      "size": "300g",
+      "dayOfTheWeek": "sunday",
+      "price": "35.50",
+       "url": "Subs.png"
+    }
+  ]
 }
