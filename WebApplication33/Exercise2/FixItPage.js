@@ -111,9 +111,25 @@ var array = textToSave.trim().split(" ");
 
 //9. check if the 4th element in the array is a number
 
-var arrayPosition = array[3];
+var arrayPosition = array[4];
 
 if (!arrayPosition.isNaN)
     alert("It isnt a number");
 else
     alert("It's a number");
+
+//end of 9.
+
+//10. Round one of the numbers in the paragraph up/down
+
+alert("Postion 4 in array is: " + Math.floor(arrayPosition));
+alert("Postion 4 in array is: " + Math.ceil(arrayPosition));
+
+//end of 10.
+
+//11. replace the 3rd word with PI then roud it to the nearest integer
+function replacingWithPi()
+{
+    document.getElementById('makeMeAnArray').innerHTML = textToSave.replace(array[2],,Math.round(Math.PI));
+}
+//End of 11.
