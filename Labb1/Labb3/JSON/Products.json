@@ -195,7 +195,7 @@
     "dayOfTheWeek": "monday",
     "price": "15.50",
     "about": "For those days you feel abit neutral",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   },
   {
     "name": "happy wonders sub",
@@ -204,7 +204,7 @@
     "dayOfTheWeek": "tuesday",
     "price": "14.50",
     "about": "This burger will not only warm your belly but also your heart!",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   },
   {
     "name": "double cheese sub",
@@ -213,7 +213,7 @@
     "dayOfTheWeek": "wednesday",
     "price": "10.50",
     "about": "Cheesy deliciousness! Nothing else needs to be said.",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   },
   {
     "name": "veggie sub",
@@ -222,7 +222,7 @@
     "dayOfTheWeek": "thursday",
     "price": "25.50",
     "about": "For you vegans out there! Rabbit for wrapped in delicious ecco friendly baked loaf.",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   },
   {
     "name": "salmon sub",
@@ -231,7 +231,7 @@
     "dayOfTheWeek": "friday",
     "price": "20.50",
     "about": "For when you feel the need to do like the bear and devour freshly caught salmon! with the added bread of course.",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   },
   {
     "name": "feathered sub",
@@ -240,7 +240,7 @@
     "dayOfTheWeek": "saturday",
     "price": "15.50",
     "about": "Birds of a feather... all provide wonderful nutrition!",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   },
   {
     "name": "royal grandeur sub",
@@ -249,6 +249,6 @@
     "dayOfTheWeek": "sunday",
     "price": "35.50",
     "about": "Wish to eat like a king/queen? Then this 300g delicious chromatic sub is just for you! Fork out and get fed.",
-    "image": "Images/Pizza.png"
+    "image": "Images/Subs.png"
   }
 ]
