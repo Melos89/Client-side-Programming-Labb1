@@ -1,228 +1,254 @@
-﻿{
-  "Products": [
-    {
-      "name": "Cola",
-      "size": "small",
-      "dayOfTheWeek": "monday",
-      "price": "10.50",
-      "about": "Black fizzzy drink to sate your thirst. Comes in cherry/vanilla or standard flavour. overloaded with sugar!",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "Fanta",
-      "size": "medium",
-      "dayOfTheWeek": "tuesday",
-      "price": "12.50",
-      "about": "The golden drink. Fizzy drink with a ton of sugar. Comes in bloodorange or orange flavour",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "Sprite",
-      "size": "large",
-      "dayOfTheWeek": "wednesday",
-      "price": "20.50",
-      "about": "see through fizz. refreshing drink all through summer!",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "7Up",
-      "size": "small",
-      "dayOfTheWeek": "thursday",
-      "price": "20.50",
-      "about": "Sprite on steroids! overloaded with sugar and chemicals. Guaranteed to make you alert.",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "Trocadero",
-      "size": "large",
-      "dayOfTheWeek": "friday",
-      "price": "12.50",
-      "about": "When you wish you were in the bahamas. chromatic flavouring.",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "Pomac",
-      "size": "medium",
-      "dayOfTheWeek": "saturday",
-      "price": "18.50",
-      "about": "Champagne for the children! satisfaction guaranteed",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "CherryLime",
-      "size": "large",
-      "dayOfTheWeek": "sunday",
-      "price": "20.50",
-      "about": "A veritable taste explosion. Chromatic flavours and overloaded with sugar!",
-        "image": "Images/Drink.png"
-    },
-    {
-      "name": "Vegan burger",
-      "size": "100g",
-      "dayOfTheWeek": "monday",
-      "price": "15.00",
-      "about": "For you vegans out there! lettuce lettuce lettuce",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "heavy metal burger",
-      "size": "250g",
-      "dayOfTheWeek": "tuesday",
-      "price": "18.20",
-      "about": "Hard rock heavy duty meat.guaranteed heavy metal poisoning for your tastebuds!",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "double cheese burger",
-      "size": "200g",
-      "dayOfTheWeek": "wednesday",
-      "price": "16.50",
-      "about": "double cheesy delicious",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "bacon supreme burger",
-      "size": "250g",
-      "dayOfTheWeek": "thursday ",
-      "price": "20.20",
-      "about": "Bacon! BACON! bacon...",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "salmon burger",
-      "size": "120g",
-      "dayOfTheWeek": "friday",
-      "price": "14.50",
-      "about": "Fish burger for life",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "global joy burger",
-      "size": "150g",
-      "dayOfTheWeek": "saturday",
-      "price": "12.00",
-      "about": "Guaranteed to make you smile!",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "end of days burger",
-      "size": "200g",
-      "dayOfTheWeek": "sunday",
-      "price": "20.00",
-      "about": "To Mark your doom!",
-        "image": "Images/Hamburger.png"
-    },
-    {
-      "name": "pepper pizza",
-      "size": "30cm",
-      "dayOfTheWeek": "monday",
-      "price": "45.50",
-      "about": "Spice up your life!",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "triple cheese pizza",
-      "size": "100cm",
-      "dayOfTheWeek": "tuesday",
-      "price": "14.50",
-      "about": "Drenched in delicious cheese! feta/churchill/antgarde",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "standard cheese pizza",
-      "size": "90cm",
-      "dayOfTheWeek": "wednesday",
-      "price": "10.50",
-      "about": "If you just don´t feel for that much cheese....",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "fungue pizza",
-      "size": "220cm",
-      "dayOfTheWeek": "thursday",
-      "price": "25.50",
-      "about": "Mushroom! mushrooms",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "sushi pizza",
-      "size": "180cm",
-      "dayOfTheWeek": "friday",
-      "price": "20.50",
-      "about": "The fish lovers circular delight.",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "Avrile pizza",
-      "size": "210cm",
-      "dayOfTheWeek": "saturday",
-      "price": "15.50",
-      "about": "No. she doesnt",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "The bakers special",
-      "size": "200cm",
-      "dayOfTheWeek": "sunday",
-      "price": "35.50",
-      "about": "Ask and ye shall recieve! bounties a plenty from the bakers cabinet",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "neutrality sub",
-      "size": "200g",
-      "dayOfTheWeek": "monday",
-      "price": "15.50",
-      "about": "For those days you feel abit neutral",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "happy wonders sub",
-      "size": "150g",
-      "dayOfTheWeek": "tuesday",
-      "price": "14.50",
-      "about": "This burger will not only warm your belly but also your heart!",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "double cheese sub",
-      "size": "90g",
-      "dayOfTheWeek": "wednesday",
-      "price": "10.50",
-      "about": "Cheesy deliciousness! Nothing else needs to be said.",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "veggie sub",
-      "size": "220g",
-      "dayOfTheWeek": "thursday",
-      "price": "25.50",
-      "about": "For you vegans out there! Rabbit for wrapped in delicious ecco friendly baked loaf.",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "salmon sub",
-      "size": "180g",
-      "dayOfTheWeek": "friday",
-      "price": "20.50",
-      "about": "For when you feel the need to do like the bear and devour freshly caught salmon! with the added bread of course.",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "feathered sub",
-      "size": "210g",
-      "dayOfTheWeek": "saturday",
-      "price": "15.50",
-      "about": "Birds of a feather... all provide wonderful nutrition!",
-        "image": "Images/Pizza.png"
-    },
-    {
-      "name": "royal grandeur sub",
-      "size": "300g",
-      "dayOfTheWeek": "sunday",
-      "price": "35.50",
-      "about": "Wish to eat like a king/queen? Then this 300g delicious chromatic sub is just for you! Fork out and get fed.",
-        "image": "Images/Pizza.png"
-    }
-  ]
-}
+﻿[
+  {
+    "name": "Cola",
+    "type": "drink",
+    "size": "small",
+    "dayOfTheWeek": "monday",
+    "price": "10.50",
+    "about": "Black fizzzy drink to sate your thirst. Comes in cherry/vanilla or standard flavour. overloaded with sugar!",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Fanta",
+    "type": "drink",
+    "size": "medium",
+    "dayOfTheWeek": "tuesday",
+    "price": "12.50",
+    "about": "The golden drink. Fizzy drink with a ton of sugar. Comes in bloodorange or orange flavour",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Sprite",
+    "type": "drink",
+    "size": "large",
+    "dayOfTheWeek": "wednesday",
+    "price": "20.50",
+    "about": "see through fizz. refreshing drink all through summer!",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "7Up",
+    "type": "drink",
+    "size": "small",
+    "dayOfTheWeek": "thursday",
+    "price": "20.50",
+    "about": "Sprite on steroids! overloaded with sugar and chemicals. Guaranteed to make you alert.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Trocadero",
+    "type": "drink",
+    "size": "large",
+    "dayOfTheWeek": "friday",
+    "price": "12.50",
+    "about": "When you wish you were in the bahamas. chromatic flavouring.",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Pomac",
+    "type": "drink",
+    "size": "medium",
+    "dayOfTheWeek": "saturday",
+    "price": "18.50",
+    "about": "Champagne for the children! satisfaction guaranteed",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "CherryLime",
+    "type": "drink",
+    "size": "large",
+    "dayOfTheWeek": "sunday",
+    "price": "20.50",
+    "about": "A veritable taste explosion. Chromatic flavours and overloaded with sugar!",
+    "image": "Images/Drink.png"
+  },
+  {
+    "name": "Vegan burger",
+    "type": "burger",
+    "size": "100g",
+    "dayOfTheWeek": "monday",
+    "price": "15.00",
+    "about": "For you vegans out there! lettuce lettuce lettuce",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "heavy metal burger",
+    "type": "burger",
+    "size": "250g",
+    "dayOfTheWeek": "tuesday",
+    "price": "18.20",
+    "about": "Hard rock heavy duty meat.guaranteed heavy metal poisoning for your tastebuds!",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "double cheese burger",
+    "type": "burger",
+    "size": "200g",
+    "dayOfTheWeek": "wednesday",
+    "price": "16.50",
+    "about": "double cheesy delicious",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "bacon supreme burger",
+    "type": "burger",
+    "size": "250g",
+    "dayOfTheWeek": "thursday ",
+    "price": "20.20",
+    "about": "Bacon! BACON! bacon...",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "salmon burger",
+    "type": "burger",
+    "size": "120g",
+    "dayOfTheWeek": "friday",
+    "price": "14.50",
+    "about": "Fish burger for life",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "global joy burger",
+    "type": "burger",
+    "size": "150g",
+    "dayOfTheWeek": "saturday",
+    "price": "12.00",
+    "about": "Guaranteed to make you smile!",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "end of days burger",
+    "type": "burger",
+    "size": "200g",
+    "dayOfTheWeek": "sunday",
+    "price": "20.00",
+    "about": "To Mark your doom!",
+    "image": "Images/Hamburger.png"
+  },
+  {
+    "name": "pepper pizza",
+    "type": "pizza",
+    "size": "30cm",
+    "dayOfTheWeek": "monday",
+    "price": "45.50",
+    "about": "Spice up your life!",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "triple cheese pizza",
+    "type": "pizza",
+    "size": "100cm",
+    "dayOfTheWeek": "tuesday",
+    "price": "14.50",
+    "about": "Drenched in delicious cheese! feta/churchill/antgarde",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "standard cheese pizza",
+    "type": "pizza",
+    "size": "90cm",
+    "dayOfTheWeek": "wednesday",
+    "price": "10.50",
+    "about": "If you just don´t feel for that much cheese....",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "fungue pizza",
+    "type": "pizza",
+    "size": "220cm",
+    "dayOfTheWeek": "thursday",
+    "price": "25.50",
+    "about": "Mushroom! mushrooms",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "sushi pizza",
+    "type": "pizza",
+    "size": "180cm",
+    "dayOfTheWeek": "friday",
+    "price": "20.50",
+    "about": "The fish lovers circular delight.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "Avrile pizza",
+    "type": "pizza",
+    "size": "210cm",
+    "dayOfTheWeek": "saturday",
+    "price": "15.50",
+    "about": "No. she doesnt",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "The bakers special",
+    "type": "pizza",
+    "size": "200cm",
+    "dayOfTheWeek": "sunday",
+    "price": "35.50",
+    "about": "Ask and ye shall recieve! bounties a plenty from the bakers cabinet",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "neutrality sub",
+    "type": "sub",
+    "size": "200g",
+    "dayOfTheWeek": "monday",
+    "price": "15.50",
+    "about": "For those days you feel abit neutral",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "happy wonders sub",
+    "type": "sub",
+    "size": "150g",
+    "dayOfTheWeek": "tuesday",
+    "price": "14.50",
+    "about": "This burger will not only warm your belly but also your heart!",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "double cheese sub",
+    "type": "sub",
+    "size": "90g",
+    "dayOfTheWeek": "wednesday",
+    "price": "10.50",
+    "about": "Cheesy deliciousness! Nothing else needs to be said.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "veggie sub",
+    "type": "sub",
+    "size": "220g",
+    "dayOfTheWeek": "thursday",
+    "price": "25.50",
+    "about": "For you vegans out there! Rabbit for wrapped in delicious ecco friendly baked loaf.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "salmon sub",
+    "type": "sub",
+    "size": "180g",
+    "dayOfTheWeek": "friday",
+    "price": "20.50",
+    "about": "For when you feel the need to do like the bear and devour freshly caught salmon! with the added bread of course.",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "feathered sub",
+    "type": "sub",
+    "size": "210g",
+    "dayOfTheWeek": "saturday",
+    "price": "15.50",
+    "about": "Birds of a feather... all provide wonderful nutrition!",
+    "image": "Images/Pizza.png"
+  },
+  {
+    "name": "royal grandeur sub",
+    "type": "sub",
+    "size": "300g",
+    "dayOfTheWeek": "sunday",
+    "price": "35.50",
+    "about": "Wish to eat like a king/queen? Then this 300g delicious chromatic sub is just for you! Fork out and get fed.",
+    "image": "Images/Pizza.png"
+  }
+]
