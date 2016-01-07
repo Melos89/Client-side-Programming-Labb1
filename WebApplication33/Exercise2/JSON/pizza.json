@@ -1,3 +1,53 @@
 ﻿{
-
+    "ListOfPizzas": [
+    {
+      "name": "pepper pizza",
+      "size": "30cm",
+      "dayOfTheWeek": "monday",
+      "price": "45.50",
+       "url": "Pizza.png"
+    },
+    {
+      "name": "triple cheese pizza",
+      "size": "100cm",
+      "dayOfTheWeek": "tuesday",
+      "price": "14.50",
+       "url": "Pizza.png"
+    },
+    {
+      "name": "standard cheese pizza",
+      "size": "90cm",
+      "dayOfTheWeek": "wednesday",
+      "price": "10.50",
+       "url": "Pizza.png"
+    },
+    {
+      "name": "fungue pizza",
+      "size": "220cm",
+      "dayOfTheWeek": "thursday",
+      "price": "25.50",
+       "url": "Pizza.png"
+    },
+    {
+      "name": "sushi pizza",
+      "size": "180cm",
+      "dayOfTheWeek": "friday",
+      "price": "20.50",
+       "url": "Pizza.png"
+    },
+    {
+      "name": "Avrile pizza",
+      "size": "210cm",
+      "dayOfTheWeek": "saturday",
+      "price": "15.50",
+       "url": "Pizza.png"
+    },
+    {
+      "name": "The bakers special",
+      "size": "200cm",
+      "dayOfTheWeek": "sunday",
+      "price": "35.50",
+       "url": "Pizza.png"
+    }
+  ]
 }
