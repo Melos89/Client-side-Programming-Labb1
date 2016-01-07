@@ -55,12 +55,12 @@ function addPizzasToPage() {
         if (request.readyState === 4 && request.status === 200) {
             var pizzas = JSON.parse(request.responseText);
             var output = "<h2>" + "Delicious pizzas";
-            for (var i = 0; i < pizzas.pizzaList.length; i++) {
+            for (var i = 0; i < pizzas.ListOfPizzas.length; i++) {
                 output += "<article>" + "<fieldset>"
-                    + "<legend>" + pizzas.pizzaList[i].dayOfTheWeek + " pizza" + "</legend>"
-                    + "<h3>" + pizzas.pizzaList[i].name + "</h3>"
+                    + "<legend>" + pizzas.ListOfPizzas[i].dayOfTheWeek + " pizza" + "</legend>"
+                    + "<h3>" + pizzas.ListOfPizzas[i].name + "</h3>"
                     + "<span>" + "<img src='Images/Pizza.png'/>" + "</span>"
-                    + "<div class='price'" + " id='" + pizzas.pizzaList[i].dayOfTheWeek + "'>" + pizzas.pizzaList[i].price + "</div>"
+                    + "<div class='price'" + " id='" + pizzas.ListOfPizzas[i].dayOfTheWeek + "'>" + pizzas.ListOfPizzas[i].price + "</div>"
                     + "</fieldset>" + "</article>";
             }
             output += "</h2>";
@@ -82,12 +82,12 @@ function addDrinksToPage() {
         if (request.readyState === 4 && request.status === 200) {
             var drinks = JSON.parse(request.responseText);
             var output = "<h2>" + "Delicious drinks";
-            for (var i = 0; i < drinks.drinkList.length; i++) {
+            for (var i = 0; i < drinks.ListOfDrinks.length; i++) {
                 output += "<article>" + "<fieldset>"
-                    + "<legend>" + drinks.drinkList[i].dayOfTheWeek + " drink" + "</legend>"
-                    + "<h3>" + drinks.drinkList[i].name + "</h3>"
+                    + "<legend>" + drinks.ListOfDrinks[i].dayOfTheWeek + " drink" + "</legend>"
+                    + "<h3>" + drinks.ListOfDrinks[i].name + "</h3>"
                     + "<span>" + "<img src='Images/Drink.png'/>" + "</span>"
-                    + "<div class='price'" + " id='" + drinks.drinkList[i].dayOfTheWeek + "'>" + drinks.drinkList[i].price + "</div>"
+                    + "<div class='price'" + " id='" + drinks.ListOfDrinks[i].dayOfTheWeek + "'>" + drinks.ListOfDrinks[i].price + "</div>"
                     + "</fieldset>" + "</article>";
             }
             output += "</h2>";

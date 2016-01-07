@@ -59,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="JSON\drink.json" />
+    <Content Include="JSON\drinks.json" />
     <Content Include="JSON\hamburger.json" />
     <Content Include="JSON\pizza.json" />
     <Content Include="JSON\Subs.json" />
