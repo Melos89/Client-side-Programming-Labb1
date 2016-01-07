@@ -93,3 +93,15 @@ alert("This page latest update: " + document.lastModified + "\n" +
 var textToSave = document.getElementById('makeMeAnArray').innerHTML;
 
 var array = textToSave.trim().split(" ");
+
+//end of 7.
+
+//8. Use all the string methods and propertys allong with the array
+
+var length = array.length;
+var upperCase = array.toUpperCase;
+var lowerCase = array.toLowerCase;
+var indexOf = array.indexOf("pp");
+var lastIndexOf = array.lastIndexOf("out");
+var charAt = array.charAt(20);
+var replace = array.replace("y","**");
