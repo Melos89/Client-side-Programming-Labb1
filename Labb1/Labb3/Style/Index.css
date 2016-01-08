@@ -1,2 +1,99 @@
 ﻿body {
+    background:red;
+    background: linear-gradient( rgba(255, 0, 0, 1) 0, rgba(255, 255, 0, 1) 15%, rgba(0, 255, 0, 1) 30%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 255, 1) 65%, rgba(255, 0, 255, 1) 80%, rgba(255, 0, 0, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 0, 0, 1)), color-stop(15%, rgba(255, 255, 0, 1)), color-stop(30%, rgba(0, 255, 0, 1)), color-stop(50%, rgba(0, 255, 255, 1)), color-stop(65%, rgba(0, 0, 255, 1)), color-stop(80%, rgba(255, 0, 255, 1)), color-stop(100%, rgba(255, 0, 0, 1)));
+}
+
+#search {
+    margin: 0 auto;
+    color: lawngreen;
+    text-align: center;
+    background:none;
+    width: 50%;
+    border: 3px solid violet;
+    padding: 10px;
+    -ms-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+    #search label {
+        font: bold 1.3rem Arial;
+        text-transform: uppercase;
+    }
+
+#Information {
+    margin: 5px auto;
+    width: 80%;
+    color: black;
+    border-top: 2px dotted red;
+}
+
+    #Information ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #Information ul li {
+            width: 100%;
+            padding: 0 20px;
+            background: none;
+            padding-bottom: 10px;
+            height: 100px;
+            overflow: hidden;
+            border-bottom: 1px dotted #CCC;
+            -moz-animation: goof 1s;
+            -o-animation: goof 1s;
+            -webkit-animation: goof 1s;
+            animation: goof 1s;
+            -moz-transition: height 0.3s ease-in-out;
+            -o-transition: height 0.3s ease-in-out;
+            -webkit-transition: height 0.3s ease-in-out;
+            transition: height 0.3s ease-in-out;
+        }
+
+    #Information li:hover {
+        height: 250px;
+        min-height: 100px;
+        overflow: visible;
+    }
+
+    #Information img {
+        float: left;
+        width: 80px;
+        margin-left: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+@-moz-keyframes goof {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes goof {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes goof {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
 }
