@@ -87,6 +87,7 @@
     <Content Include="MenuPage2.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Styling.css" />
+    <Content Include="StylingEvents.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

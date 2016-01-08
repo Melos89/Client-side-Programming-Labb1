@@ -83,7 +83,7 @@ function StyleItUp() {
 
 //6. Play with the DOM-properties
 
-document.title = "Hello New Title";
+
 alert("This page latest update: " + document.lastModified + "\n" +
     "the URL to this page: " + document.URL + "\n" +
     "the domain: " + document.domain);
@@ -111,16 +111,73 @@ var text = "";
 
 //end of 8.
 
-//9. check if the 4th element in the array is a number
+/*
+ * 5 Extra events**********************************'
+ */
+var eventOne = document.getElementById('eventOne');
+eventOne.addEventListener('click', eventOneFunction, false);
 
-var arrayPosition = array[4];
+var eventTwo = document.getElementById('eventTwo');
+eventTwo.addEventListener('click',eventTwoFunction,false);
 
-if (arrayPosition.isNaN)
-    alert("It isnt a number");
-else
-    alert("It's a number");
+var eventThree = document.getElementById('eventThree');
+eventThree.addEventListener('click', eventThreeFunction, false);
 
-//end of 9.
+var eventFour = document.getElementById('eventFour');
+eventFour.addEventListener('click', eventFourFunction, false);
+
+var eventFive = document.getElementById('eventFive');
+eventFive.addEventListener('click', eventFiveFunction, false);
+
+
+function eventFiveFunction() {
+    eventOne.style.backgroundColor = "purple";
+    eventTwo.style.backgroundColor = "hotpink";
+    eventThree.style.backgroundColor = "green";
+    eventFour.style.backgroundColor = "red";
+    eventFive.style.backgroundColor = "blue";
+    var itemToRemove = document.getElementById('Removable');
+    itemToRemove.parentNode.removeChild(itemToRemove);
+}
+function eventFourFunction(){
+    eventOne.style.backgroundColor = "hotpink";
+    eventTwo.style.backgroundColor = "green";
+    eventThree.style.backgroundColor = "red";
+    eventFour.style.backgroundColor = "blue";
+    eventFour.textContent = "Cat in a Hat!";
+    var textFromBox1 = document.getElementById('box1').innerHTML;
+    alert("This text is in the next to last paragraph: " + textFromBox1);
+}
+function eventThreeFunction() {
+    eventOne.style.backgroundColor = "green";
+    eventTwo.style.backgroundColor = "red";
+    eventThree.style.backgroundColor = "blue";
+    document.title = "Hello New Title";
+    alert(document.title);
+
+}
+function eventTwoFunction() {
+    eventOne.style.backgroundColor = "red";
+    eventTwo.style.backgroundColor = "blue";
+    $('head').append('<link href="StylingEvents.css" rel="stylesheet" />')
+}
+function eventOneFunction() {
+    //9. check if the 4th element in the array is a number
+    eventOne.style.backgroundColor = "blue";
+    var arrayPosition = array[4];
+    alert('checking if  array position for task 9  is or isnt a number:');
+    if (arrayPosition.isNaN)
+        alert(" It isnt a number");
+    else
+        alert("It's a number");
+
+    //end of 9.
+}
+/*
+ * End of events
+ */
+
+
 
 //10. Round one of the numbers in the paragraph up/down
 

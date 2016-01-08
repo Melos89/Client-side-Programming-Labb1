@@ -1,0 +1,7 @@
+﻿body {
+}
+.boxes{
+    border: 2px dashed;
+    border-radius: 10px 10px 6px 6px;
+    border-color:aqua;
+}
