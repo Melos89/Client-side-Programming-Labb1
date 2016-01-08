@@ -39,61 +39,17 @@
             padding: 0 20px;
             background: none;
             padding-bottom: 10px;
-            height: 100px;
-            overflow: hidden;
+            height: 200px;
             border-bottom: 1px dotted #CCC;
-            -moz-animation: goof 1s;
-            -o-animation: goof 1s;
-            -webkit-animation: goof 1s;
-            animation: goof 1s;
-            -moz-transition: height 0.3s ease-in-out;
-            -o-transition: height 0.3s ease-in-out;
-            -webkit-transition: height 0.3s ease-in-out;
-            transition: height 0.3s ease-in-out;
         }
-
-    #Information li:hover {
-        height: 250px;
-        min-height: 100px;
-        overflow: visible;
-    }
 
     #Information img {
         float: left;
         width: 80px;
+        height:50%;
         margin-left: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         border-radius: 10px;
     }
-
-@-moz-keyframes goof {
-    0% {
-        opacity: 0.3;
-    }
-
-    100% {
-        opacity: 1.0;
-    }
-}
-
-@-webkit-keyframes goof {
-    0% {
-        opacity: 0.3;
-    }
-
-    100% {
-        opacity: 1.0;
-    }
-}
-
-@keyframes goof {
-    0% {
-        opacity: 0.3;
-    }
-
-    100% {
-        opacity: 1.0;
-    }
-}
